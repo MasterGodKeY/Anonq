@@ -1,0 +1,128 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial', Times;
+    font-size: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    
+    
+}
+
+
+header nav a{
+    
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 110px;
+    font-size: 25px;
+    font-weight: 500;
+    fill: 5px ;
+    
+
+
+
+}
+header nav a:hover{
+    color: #fff;
+
+}
+header{
+    margin-bottom: -100px;
+    padding-top: 5px;
+}
+
+.filme-principal{
+    font-size: 15px;
+    background: url('/img/capa-50tonsdecinza.jpg');
+    background-size: cover;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    margin-top: -500px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,0.50)50%),url('/img/capa-50tonsdecinza.jpg');
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.filme-principal .Título{
+    font-size: 40px;
+    margin-left: 15px;
+    color:goldenrod;
+
+}
+.filme-principal .Sinopse{
+    margin-bottom: 50px;
+    margin-left: 15px;
+    color: goldenrod;
+
+   
+
+}
+.botões{
+    margin-bottom: -400px;
+    
+}
+.botão{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    padding: 12px 28px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 3s ease all;
+
+}
+.texto{
+    margin-left: 15px;
+    color: goldenrod;
+}
+ .container{
+     margin-left: 28px;
+     margin-right: 14px;
+ }
+.filme-principal .container{
+    width: 65%;
+}
+
+.box{
+    width: 70%;
+    height: 320px;
+    display: block;
+   
+    
+}
+.carrosel-filme{
+    
+
+}
+    
+
+
+
